@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "column",
+    "name": "v88CSVBanner",
+    "description": "Creates a banner from a CSV string",
+    "author": "V88",
+    "params": [
+      {
+		 	  "name": "csv",
+		 	  "displayName": "CSV",
+		    "type": "string"
+		  },
+      {
+		 	  "name": "title",
+		 	  "displayName": "Title",
+		    "type": "string"       
+      },
+		  {
+		    "name": "foreground",
+		    "displayName": "Foreground",
+		    "type": "string"
+		  },
+      {
+		    "name": "background",
+		    "displayName": "Background",
+		    "type": "string"       
+      },
+      {
+		    "name": "bullet",
+		    "displayName": "Bullet",
+		    "type": "string"            
+      },
+      {
+        "name": "fontSize",
+		    "displayName": "Font Size",
+		    "type": "string"
+      },
+      {
+        "name": "lineHeight",
+		    "displayName": "Line Height",
+		    "type": "string"
+      },
+      {
+        "name": "padding",
+		    "displayName": "Padding",
+		    "type": "string"
+      },
+      {
+        "name": "separator",
+		    "displayName": "Separator",
+		    "type": "string"      
+      }
+    ],
+     "result": {
+      "type": "string"
+    }
+  }
+]
